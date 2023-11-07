@@ -1,0 +1,54 @@
+.top-categories {
+    padding: 20px;
+}
+
+
+.category-row{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.category-card {
+    display: grid;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+
+.category hr{
+    border: none;
+    border-top: 2px solid #33333353;
+    width: 100%;
+    /* transition: all 0.1s; */
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.273); */
+}
+
+.math:hover hr{
+    border-top: 2px solid #2c6fef; /* New border color and thickness on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.computer:hover hr{
+    border-top: 2px solid #e1503c; /* New border color and thickness on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.category h5 a, .category h6 a {
+    padding: 10px;
+    border-radius: 10px;
+    /* line-height:normal; */
+}
+
+.math h5 a:hover, .math h6:hover a{
+    background-color: #2c6fef;
+    color: white;
+}
+
+.computer h5 a:hover, .computer h6:hover a{
+    background-color: #e1503c;
+    color: black;
+} 
