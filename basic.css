@@ -1,0 +1,71 @@
+/* search icon */
+
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    margin: 0;
+    padding: 0;
+}
+
+.search-icon {
+    position: static;
+    padding: 0;
+    /* margin: 0 10px; */
+}
+
+/* menu icon */
+
+/* .menu {
+
+} */
+
+
+/* icon end */
+
+
+/* fonts */
+
+body {
+    font-family: 'Noto Sans Psalter Pahlavi';
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Shippori Antique B1';
+    font-weight: 700;
+}
+
+body {font-size: 100%;} /* 16px */
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {font-size: 3.158rem; /* 50.56px */}
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {font-size: 1.777rem; /* 28.48px */}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
+
+/* fonts end */
+
+body {
+    background-color: #F7F5F2;
+    /* background-image: url("assets/background/doodle-background1.png"); */
+    z-index: -1;
+    color: #150925;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+

@@ -1,0 +1,76 @@
+/* navigation bar*/
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+header {
+    display: flex;
+    align-items: center;
+    /* height: 200px; */
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    /* background-color: #6c2dbe; */
+    background: linear-gradient(to right, #6c2dbe, #c687de);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item-list {
+    /* color: #6c2dbe; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 0;
+    width: 75%;
+    font-size: large;
+}
+
+.nav-item-list li {
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 30px;
+    margin: 0 10px;
+    /* align-items:center; */
+    transition: 0.3s ease;
+}
+
+.nav-item-list li a{
+    display: flex;
+    align-items: baseline;
+}
+    
+
+.nav-item-list li:hover {
+    background: linear-gradient(to right, #4d1e8a, #6c2dbe);
+}
+.nav-item-list li:hover a, .nav-item-list li:hover .search-icon{
+    color: #f0b556;
+}
+
+.company-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.title h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: 500;
+    font-size: xxx-large;
+}

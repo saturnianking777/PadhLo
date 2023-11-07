@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PadhLo</title>
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="navigation-bar.css">
+    <link rel="stylesheet" href="summary.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+            <div class="company-name">
+                <aside class="logo">
+                    <img src="assets/logo/logo-bgless.png" alt="logo">
+                </aside>
+                <aside class="title">
+                    <h1>PadhLo</h1>
+                </aside>
+            </div>
+
+            <ul class="nav-item-list">
+                <li><a href="courses.html" target="_blank" class="category-drop"> Courses </a></li>
+                <li><a href="" class="navbar-options">Forum</a></li>
+                <li><span class="material-symbols-outlined search-icon">search</span><input type="text" name="searchBar"></li>
+                <li><a href="signInPage.html" target="_blank">Sign In</a></li>
+                <li><a href="dashboard.html" target="_blank"><span class="material-symbols-outlined menu">menu</span></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="assets\slider\photo1.png" alt="Image 1">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets\slider\photo2.png" alt="Image 2">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets\slider\photo3.png" alt="Image 3">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets\slider\photo4.png" alt="Image 4">
+            </div>
+            <div class="carousel-slide">
+                <img src="assets\slider\photo5.png" alt="Image 5">
+            </div>
+
+            <button class="carousel-button prev" onclick="changeSlide(-1)">&#9665;</button>
+            <button class="carousel-button next" onclick="changeSlide(1)">&#9655;</button>
+        </div>
+
+        <script>
+            let currentSlide = 0;
+            const slides = document.querySelectorAll('.carousel-slide');
+    
+            function showSlide(n) {
+                if (n < 0) {
+                    currentSlide = slides.length - 1;
+                } else if (n >= slides.length) {
+                    currentSlide = 0;
+                }
+    
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = 'none';
+                }
+    
+                slides[currentSlide].style.display = 'block';
+            }
+    
+            function changeSlide(n) {
+                showSlide(currentSlide += n);
+            }
+    
+            // Show the first slide initially
+            showSlide(currentSlide);
+        </script>
+
+    </section>
+    
+    <section class="summary">
+
+        <article class="summary-area left-card">
+            <div class="summary-card">
+                <img src="assets\summary\laptop_collage@2x.png" alt="">
+                <div class="summary-text" style="text-align: right;">
+                    <h3>Title 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dignissimos deserunt reprehenderit? Ipsam porro, inventore nisi commodi beatae reprehenderit earum quo sint quas praesentium deleniti sunt tempora totam in voluptate?</p>
+                </div>
+            </div>
+        </article>
+
+        <article class="summary-area right-card">
+            <div class="summary-card">
+                <img src="assets\summary\laptop_collage@2x.png" alt="">
+                <div class="summary-text" style="text-align: right;">
+                    <h3>Title 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi dignissimos deserunt reprehenderit? Ipsam porro, inventore nisi commodi beatae reprehenderit earum quo sint quas praesentium deleniti sunt tempora totam in voluptate?</p>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    
+</body>
+</html>
