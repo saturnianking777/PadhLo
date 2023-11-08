@@ -1,0 +1,8 @@
+footer {
+    border-top: #4d1e8a solid 5px;
+    display: flex;
+    padding: 60px 0;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
