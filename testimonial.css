@@ -34,7 +34,7 @@ td, th{
     border-radius: 50%;
 }
 
-.image::before {
+.image::backdrop {
     content: "";
     display: block;
     position: absolute;

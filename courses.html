@@ -4,8 +4,222 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses - PadhLo</title>
+    <link rel="stylesheet" href="navigation-bar.css">
+    <link rel="stylesheet" href="basic.css">
+    <link rel="stylesheet" href="categories-list.css">
+    <link rel="stylesheet" href="footer.css">
+
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .title-card h1{
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>courses</h1>
+
+    <header>
+        <nav class="navbar">
+            <div class="company-name">
+                <aside class="logo">
+                    <img src="assets/logo/logo-bgless.png" alt="logo">
+                </aside>
+                <aside class="title">
+                    <h2>PadhLo</h2>
+                </aside>
+            </div>
+
+            <ul class="nav-item-list">
+                <li><a href="courses.html" target="_blank" class="category-drop"> Courses </a></li>
+                <li><a href="" class="navbar-options">Forum</a></li>
+                <li><span class="material-symbols-outlined search-icon">search</span><input type="text" name="searchBar"></li>
+                <li><a href="signInPage.html" target="_blank">Sign In</a></li>
+                <li><a href="dashboard.html" target="_blank"><span class="material-symbols-outlined menu">menu</span></a></li>
+            </ul>
+            
+        </nav>
+    </header>
+
+    <section>
+        <div class="title-card">
+            <h1>All Courses</h1>
+        </div>
+    </section>
+
+    <section class="top-categories">
+        <div class="category math">
+            <h5><a href="courses.html">Mathematics</a></h5><hr>
+            <br>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="assets\icons\vectors.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Vectors</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\number_theory.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Number Theory</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\geometry.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Geometry</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\complex_numbers.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Complex Numbers</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\graphing.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Intro to Graphs</a></h6>
+                </div>
+
+            </div>
+            <hr>
+        </div>
+
+        <div class="category computer">
+            <h5><a href="courses.html">Computer Science</a></h5><hr>
+            <br>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="assets\icons\blockchain.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Block Chain</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\DS.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Data Structures</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\logic.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Intro to Programming</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\Neural.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Neural Networks</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\python.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Python Programming</a>
+                    </h6>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="category statistic">
+            <h5><a href="courses.html">Statistic</a></h5><hr>
+            <br>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="assets\icons\distributions.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Distributions</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\Plotting.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Plotting</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\probability.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Probability</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\sampling.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Sampling</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\variation.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Variation</a>
+                    </h6>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+        <div class="category calculus">
+            <h5><a href="courses.html">Calculus</a></h5><hr>
+            <br>
+            <div class="category-row">
+                <div class="category-card">
+                    <img src="assets\icons\IntroCalculus.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Intro to Calculus</a></h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\Integral.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Integral Calculus</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\DifferentialEq.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Differential Equations</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\MultiVariable.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Multi Variable Calculus</a>
+                    </h6>
+                </div>
+
+                <div class="category-card">
+                    <img src="assets\icons\LinearAlgeb.png" alt="" style="height: 200px;">
+                    <h6><a href="courses.html">Linear Algebra</a>
+                    </h6>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="company-name">
+            <aside class="logo">
+                <img src="assets/logo/logo-bgless.png" alt="logo">
+            </aside>
+            <aside class="title">
+                <h2>PadhLo</h2>
+            </aside>
+        </div>
+
+        <div class="column"></div>
+        <div class="column"></div>
+
+        <div class="column">
+            <h6><a href="index.html">Home</a></h6>
+            <h6><a href="#">Courses</a></h6>
+            <h6><a href="signInPage.html">Sign In</a></h6>
+        </div>
+        <div class="column">
+            <h6>Contact Us</h6>
+            <h6>Customer Support</h6>
+            <h6><a href="aboutUs.html">Mission</a></h6>
+        </div>
+    </footer>
+    
 </body>
 </html>

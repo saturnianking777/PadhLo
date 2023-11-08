@@ -37,28 +37,50 @@
     /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.273); */
 }
 
-.math:hover hr{
-    border-top: 2px solid #2c6fef; /* New border color and thickness on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-}
-
-.computer:hover hr{
-    border-top: 2px solid #e1503c; /* New border color and thickness on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-}
-
 .category h5 a, .category h6 a {
     padding: 10px;
     border-radius: 10px;
     /* line-height:normal; */
 }
 
-.math h5 a:hover, .math h6:hover a{
+/* subject specific */
+
+.math:hover hr{
+    border-top: 2px solid #2c6fef; /* New border color and thickness on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.math h5 a:hover, .math h6:hover a {
     background-color: #2c6fef;
     color: white;
 }
 
-.computer h5 a:hover, .computer h6:hover a{
+.computer:hover hr {
+    border-top: 2px solid #e1503c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.computer h5 a:hover, .computer h6:hover a {
     background-color: #e1503c;
     color: black;
 } 
+
+.statistic:hover hr {
+    border-top: 2px solid #ee821f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.statistic h5 a:hover, .statistic h6:hover a {
+    background-color: #ee821f;
+    color: black;
+}
+
+.calculus:hover hr {
+    border-top: 2px solid #802eea;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.calculus h5 a:hover, .calculus h6:hover a {
+    background-color: #802eea;
+    color: white;
+}

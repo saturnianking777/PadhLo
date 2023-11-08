@@ -79,3 +79,7 @@ footer {
     margin: 10px 0px;
     background-color: #f4f2ef;
 }
+
+a {
+    text-decoration: none;
+}
