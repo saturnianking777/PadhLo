@@ -18,6 +18,14 @@
     padding: 10px;
 }
 
+.category-card img {
+    padding: 10px;
+    width: 90%;
+}
+
+.category-card:hover img{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.207)
+}
 
 .category hr{
     border: none;
